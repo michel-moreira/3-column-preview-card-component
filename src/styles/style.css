@@ -39,7 +39,7 @@ main {
   margin-bottom: 8.4rem;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.container-section .info h1 {
+.container-section .info .heading-section {
   color: var(--background-headings-buttons);
   text-transform: uppercase;
   font: 700 4rem var(--heading);
