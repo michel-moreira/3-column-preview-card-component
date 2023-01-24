@@ -1,0 +1,23 @@
+@media(max-width: 768px){
+    .container-card{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem;
+    }
+    .container-section {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 3rem 4.5rem 5rem;
+      }
+      .container-section .info {
+        margin-bottom: 3rem;
+      }
+    .container-section.sedan {
+        background-color: var(--first-card);
+        border-radius: 1rem 1rem 0 0;
+      }
+      .container-section.luxury {
+        background-color: var(--third-card);
+        border-radius: 0 0 1rem 1rem;
+      }
+}

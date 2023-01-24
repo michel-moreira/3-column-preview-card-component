@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-headings-buttons);
+  padding: 1rem;
+}
+/* ------------------------------ */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------------------ */
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 4rem 10rem;
+  border-radius: 1.6rem;
+  max-width: 920px;
+}
+/* ------------------------------ */
+.container-section {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 3.1rem 5rem 5rem;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container-section img {
+  width: 64px;
+  margin-bottom: 3.5rem;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container-section .info {
+  margin-bottom: 8.4rem;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container-section .info .heading-section {
+  color: var(--background-headings-buttons);
+  text-transform: uppercase;
+  font: 700 4rem var(--heading);
+  margin-bottom: 2.6rem;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container-section .info .description-section {
+  color: var(--white-paragraphs);
+  font: 400 1.6rem var(--paragraph);
+  line-height: 1.5;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container-section .learn-more-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container-section .learn-more-btn .btn-section {
+  background-color: var(--background-headings-buttons);
+  font: 400 1.6rem var(--paragraph);
+  border-radius: 5rem;
+  text-align: center;
+  padding: 1.5rem 3rem;
+  transition: 0.5s ease-in-out;
+}
+
+/* ============================== */
+
+.container-section.sedan {
+  background-color: var(--first-card);
+  border-radius: 1rem 0 0 1rem;
+}
+.container-section.sedan .learn-more-btn .btn-section {
+  color: var(--first-card);
+}
+.container-section.sedan .learn-more-btn .btn-section:hover {
+  background-color: var(--first-card);
+  color: var(--background-headings-buttons);
+  border: 3px solid var(--background-headings-buttons);
+}
+
+/* ..................................... */
+.container-section.suv {
+  background-color: var(--second-card);
+}
+.container-section.suv .learn-more-btn .btn-section {
+  color: var(--second-card);
+}
+.container-section.suv .learn-more-btn .btn-section:hover {
+  background-color: var(--second-card);
+  color: var(--background-headings-buttons);
+  border: 3px solid var(--background-headings-buttons);
+}
+
+/* ..................................... */
+.container-section.luxury {
+  background-color: var(--third-card);
+  border-radius: 0 1rem 1rem 0;
+}
+.container-section.luxury .learn-more-btn .btn-section {
+  color: var(--third-card);
+}
+.container-section.luxury .learn-more-btn .btn-section:hover {
+  background-color: var(--third-card);
+  color: var(--background-headings-buttons);
+  border: 3px solid var(--background-headings-buttons);
+}
+
+/* ############################ */
+
+.attribution .attribution-author {
+  font: 400 1.1rem var(--paragraph);
+  text-align: center;
+}
+.attribution .attribution-author a {
+  color: hsl(228, 45%, 44%);
+}

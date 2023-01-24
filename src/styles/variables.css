@@ -1,0 +1,10 @@
+:root {
+  --first-card: hsl(31, 77%, 52%);
+  --second-card: hsl(184, 100%, 22%);
+  --third-card: hsl(179, 100%, 13%);
+
+  --white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --background-headings-buttons: hsl(0, 0%, 95%);
+  --paragraph: "Lexend Deca", sans-serif;
+  --heading: "Big Shoulders Display", cursive;
+}
